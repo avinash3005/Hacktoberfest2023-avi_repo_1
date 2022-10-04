@@ -8,7 +8,7 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 Steps to follow:
 1. Register for Hacktoberfest
-https://hacktoberfest.digitalocean.com/
+https://hacktoberfest.com/
 2. Add a Program in any Language you like:
 Add any Simple or Complex Program in any language you Like in this Repository by clicking "Add File -> Create new File".
 
