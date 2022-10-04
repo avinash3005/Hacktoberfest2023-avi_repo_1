@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/50323970/193775731-830d0454-98d5-40d5-b494-a7c4a87b6883.png)
 # Hacktoberfest2022-avi_repo_1
 Make your first PR. A beginner friendly repository made specifically for open source beginners. Add any program under any language (it can be anything from a simple program to a complex data structure algorithm). Happy coding...
-Upload Different Types of Programs in any Language
+First create a folder denoting language name and then Upload Different Types of Programs in the chossen Language.
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
 What is Hacktoberfest?
