@@ -1,0 +1,58 @@
+// Step 1: Create a Stack class to represent a stack data structure.
+class Stack {
+  constructor() {
+    // Initialize an empty array to hold the stack elements.
+    this.items = [];
+  }
+
+  // Step 2: Implement a method to push an element onto the stack.
+  push(element) {
+    this.items.push(element);
+  }
+
+  // Step 3: Implement a method to pop (remove) the top element from the stack.
+  pop() {
+    if (this.isEmpty()) {
+      return "Stack is empty.";
+    }
+    return this.items.pop();
+  }
+
+  // Step 4: Implement a method to check if the stack is empty.
+  isEmpty() {
+    return this.items.length === 0;
+  }
+
+  // Step 5: Implement a method to get the top element without removing it.
+  peek() {
+    if (this.isEmpty()) {
+      return "Stack is empty.";
+    }
+    return this.items[this.items.length - 1];
+  }
+
+  // Step 6: Implement a method to get the size (number of elements) of the stack.
+  size() {
+    return this.items.length;
+  }
+}
+
+// Step 7: Create an instance of the Stack class.
+const stack = new Stack();
+
+// Step 8: Push some elements onto the stack.
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
+// Step 9: Pop an element from the stack.
+console.log("Popped element: " + stack.pop());
+
+// Step 10: Peek at the top element.
+console.log("Top element: " + stack.peek());
+
+// Step 11: Check if the stack is empty.
+console.log("Is the stack empty? " + stack.isEmpty());
+
+// Step 12: Get the size of the stack.
+console.log("Stack size: " + stack.size());
